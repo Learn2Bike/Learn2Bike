@@ -159,6 +159,20 @@ body {
     margin-bottom: 60px;
 }
 
+.booking-note {
+    text-align: center;
+    color: #667eea;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    background: #f0f0ff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
