@@ -173,6 +173,35 @@ body {
     margin-right: auto;
 }
 
+.payment-info {
+    text-align: center;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto 30px;
+}
+
+.payment-info h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.payment-info p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.payment-info a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+.payment-info a:hover {
+    text-decoration: underline;
+}
+
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
