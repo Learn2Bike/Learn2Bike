@@ -152,74 +152,11 @@
         <div class="container">
             <h2>Book Your Lessons</h2>
             <p class="section-subtitle">Get your child riding in just one week!</p>
-            <div class="booking-steps">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <h3>Contact Us</h3>
-                    <p>Fill out the form below with your info and preferred week.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <h3>Pay</h3>
-                    <p>We'll confirm availability and send payment instructions.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <h3>Book</h3>
-                    <p>Once payment is received, we'll send you a link to pick your time slot.</p>
-                </div>
-            </div>
-
             <p class="location-note">Location: St. Thomas parking lot - 8398 NE 12th St, Medina, WA 98039</p>
 
-            <form class="contact-form" id="contactForm" action="https://formspree.io/f/xaqylqar" method="POST">
-                <input type="hidden" name="_next" value="https://learn2bike.github.io/Learn2Bike/?success=true">
-                <div class="form-group">
-                    <label for="parentName">Parent's Name</label>
-                    <input type="text" id="parentName" name="parentName" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="childName">Child's Name</label>
-                    <input type="text" id="childName" name="childName" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="childAge">Child's Age</label>
-                    <input type="number" id="childAge" name="childAge" min="3" max="15" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="phone">Phone</label>
-                    <input type="tel" id="phone" name="phone" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="lessonType">Lesson Type</label>
-                    <select id="lessonType" name="lessonType" required>
-                        <option value="">Select an option</option>
-                        <option value="solo">Solo Lessons - $350/week</option>
-                        <option value="group">Group Lessons - $250/week</option>
-                    </select>
-                </div>
-
-                <div class="form-group full-width">
-                    <label for="preferredWeek">Preferred Week</label>
-                    <input type="text" id="preferredWeek" name="preferredWeek" placeholder="e.g., Week of March 10th" required>
-                </div>
-
-                <div class="form-group full-width">
-                    <label for="message">Additional Notes</label>
-                    <textarea id="message" name="message" rows="3" placeholder="Any experience level, concerns, or questions?"></textarea>
-                </div>
-
-                <button type="submit" class="btn-primary">Send Booking Request</button>
-            </form>
+            <div class="square-booking">
+                <iframe src="https://app.squareup.com/appointments/book/q2tgabwgxtlnkv/LHABBG1CWNBTX/start" width="100%" height="800" frameborder="0"></iframe>
+            </div>
         </div>
     </section>
 
