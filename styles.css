@@ -442,18 +442,13 @@ body {
     background: #f8f9fa;
 }
 
-.square-booking {
-    max-width: 800px;
-    margin: 0 auto;
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-}
-
-.square-booking iframe {
+.btn-book {
     display: block;
-    border: none;
+    max-width: 300px;
+    margin: 40px auto 0;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px 50px;
 }
 
 .contact-form {
