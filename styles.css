@@ -159,47 +159,64 @@ body {
     margin-bottom: 60px;
 }
 
-.booking-note {
+.booking-steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto 40px;
+}
+
+.step {
+    text-align: center;
+    padding: 30px 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 auto 15px;
+}
+
+.step h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.step p {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.location-note {
     text-align: center;
     color: #667eea;
     font-size: 1.1rem;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     background: #f0f0ff;
     padding: 15px 25px;
     border-radius: 10px;
-    max-width: 500px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.payment-info {
-    text-align: center;
-    background: white;
-    padding: 25px;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    margin: 0 auto 30px;
-}
-
-.payment-info h3 {
-    color: #333;
-    margin-bottom: 15px;
-}
-
-.payment-info p {
-    margin: 10px 0;
-    color: #555;
-}
-
-.payment-info a {
-    color: #667eea;
-    text-decoration: none;
-}
-
-.payment-info a:hover {
-    text-decoration: underline;
+@media (max-width: 768px) {
+    .booking-steps {
+        grid-template-columns: 1fr;
+    }
 }
 
 .services-grid {
