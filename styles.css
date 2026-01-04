@@ -502,12 +502,38 @@ body {
     background: #f8f9fa;
 }
 
-.calendly-inline-widget {
-    max-width: 900px;
+.contact-box {
+    max-width: 500px;
     margin: 0 auto;
-    border-radius: 15px;
-    overflow: hidden;
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-instruction {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contact-email {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #667eea;
+    text-decoration: none;
+    padding: 15px 40px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-email:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
 }
 
 .contact-form {
