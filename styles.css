@@ -355,6 +355,17 @@ body {
     margin: 0 auto;
 }
 
+.pricing-cards.single-card {
+    grid-template-columns: 1fr;
+    max-width: 450px;
+}
+
+.price-tagline {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
 .price-card {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
