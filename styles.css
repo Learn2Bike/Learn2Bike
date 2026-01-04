@@ -139,6 +139,55 @@ body {
     font-size: 1.3rem;
 }
 
+/* About Section */
+.about {
+    padding: 100px 0;
+    background: white;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.about-content {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-icon {
+    font-size: 4rem;
+    margin-bottom: 25px;
+}
+
+.about-text {
+    font-size: 1.15rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about-contact {
+    font-size: 1.1rem;
+    color: #667eea;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.about-contact a {
+    color: #2ecc71;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.about-contact a:hover {
+    color: #27ae60;
+    text-decoration: underline;
+}
+
 /* Services Section */
 .services {
     padding: 100px 0;
