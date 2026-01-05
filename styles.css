@@ -166,12 +166,24 @@ body {
     flex-wrap: wrap;
 }
 
+.about-figure {
+    margin: 0;
+    text-align: center;
+}
+
 .about-photo {
     width: 280px;
     height: 280px;
     object-fit: cover;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.about-figure figcaption {
+    margin-top: 12px;
+    font-size: 0.95rem;
+    color: #666;
+    font-style: italic;
 }
 
 @media (max-width: 768px) {
